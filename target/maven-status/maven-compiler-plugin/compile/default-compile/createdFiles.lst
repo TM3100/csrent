@@ -1,0 +1,11 @@
+com\csrentbd\model\Identifiable.class
+com\csrentbd\CsrebtApplication.class
+com\csrentbd\service\SpaceService.class
+com\csrentbd\service\UserService.class
+com\csrentbd\model\User.class
+com\csrentbd\repository\UserRepository.class
+com\csrentbd\service\CRUD.class
+com\csrentbd\model\Space.class
+com\csrentbd\controller\SpaceController.class
+com\csrentbd\controller\UserController.class
+com\csrentbd\repository\SpaceRepository.class
