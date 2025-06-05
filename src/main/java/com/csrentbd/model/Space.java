@@ -9,8 +9,8 @@ public class Space implements Identifiable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
-    private double areaInSquareMeters;
-    private int capacity;
+    private Double areaInSquareMeters;
+    private Integer capacity;
 
     public Space() {
     }
@@ -36,19 +36,19 @@ public class Space implements Identifiable {
         this.name = name;
     }
 
-    public double getAreaInSquareMeters() {
+    public Double getAreaInSquareMeters() {
         return areaInSquareMeters;
     }
 
-    public void setAreaInSquareMeters(double areaInSquareMeters) {
+    public void setAreaInSquareMeters(Double areaInSquareMeters) {
         this.areaInSquareMeters = areaInSquareMeters;
     }
 
-    public int getCapacity() {
+    public Integer getCapacity() {
         return capacity;
     }
 
-    public void setCapacity(int capacity) {
+    public void setCapacity(Integer capacity) {
         this.capacity = capacity;
     }
 }
