@@ -20,6 +20,9 @@ public class SpaceService implements CRUD<Space>{
         return spaceRepository.save(element);
     }
 
+    public List<Space> getAllOrdered() {
+        return spaceRepository.findAllByOrderByIdAsc();
+    }
     @Override
     public List<Space> getAll() {
         return spaceRepository.findAll();

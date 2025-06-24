@@ -19,7 +19,7 @@ public class SpaceController {
 
     @GetMapping
     public List<Space> getAllSpaces() {
-        return service.getAll();
+        return service.getAllOrdered();//service.getAll();
     }
 
     @PostMapping
