@@ -1,0 +1,36 @@
+Aquí tienes **el contenido sin etiquetas HTML**, listo para entregarlo al estudiantado en un **archivo `.txt`**. La idea es que ellos **interpreten la estructura y decidan qué etiquetas usar** (`header`, `nav`, `ul`, `ol`, `table`, `img`, `footer`, etc.).
+
+---
+
+
+---
+
+💡 **Sugerencia didáctica (muy útil para principiantes):**
+
+Puede darles **instrucciones adicionales como estas** en el mismo `.txt`:
+
+1. Cree la estructura básica de un documento HTML.
+2. El primer título debe ser el **título principal de la página**.
+3. El menú debe construirse con **una lista dentro de una sección de navegación**.
+4. La sección "Lenguajes de programación populares" debe usar **una lista ordenada**.
+5. La sección "Recursos para aprender programación" debe usar **una lista no ordenada**.
+6. La sección "Comparación de lenguajes" debe mostrarse **en forma de tabla**.
+7. En la sección "Tecnología y desarrollo" agregue **una imagen relacionada con programación**.
+8. Agregue **un pie de página con la información final**.
+9. Cree un archivo **CSS externo** para dar formato a la página.
+
+---
+
+Si quieres, también puedo prepararte una **versión aún mejor para evaluación**, donde el texto está diseñado para que obligatoriamente usen:
+
+* `header`
+* `nav`
+* `section`
+* `article`
+* `ul`
+* `ol`
+* `table`
+* `figure`
+* `footer`
+
+y que **si no usan esas etiquetas, la página queda mal estructurada** (esto funciona muy bien para evaluar HTML semántico).
